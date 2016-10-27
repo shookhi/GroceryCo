@@ -13,7 +13,7 @@ A kiosk checkout system for GroceryCo allowing their customers to perform a "che
 	- If the product has promotion(s), uses the promotion which gives customer the best deal. Sets transaction item's promotion applied, if any.
 	- Sale transaction class has method for calculating total, using either the effective or regular product prices.
 4. Console client is used to demonstrate how the sale service can be used. 
-	- KioskUtilities.CreateSaleTransaction() can be used to simulate sale sale transaction initiated by user.
+	- KioskUtilities.CreateSaleTransaction() can be used to simulate sale transaction initiated by user.
 5. Unit tests are in GroceryCo.Kiosk.Test project, covering the important calculations and functionality of the project.
 
 ## Limitations
